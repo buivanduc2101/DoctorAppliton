@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:text="Chi phí khám"
+                android:textSize="@dimen/_13ssp" />
+
+            <EditText
+                android:id="@+id/edtPrice"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/edt_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Chi phí khám"
+                android:inputType="number"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:text="Tốt nghiệp"
+                android:textSize="@dimen/_13ssp" />
+
+            <EditText
+                android:id="@+id/edtDegree"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/edt_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Tốt nghiệp"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:text="Số năm kinh nghiệm"
+                android:textSize="@dimen/_13ssp" />
+
+            <EditText
+                android:id="@+id/edtExperience"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/edt_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Số năm kinh nghiệm"
+                android:inputType="number"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:text="Chuyên môn"
+                android:textSize="@dimen/_13ssp" />
+
+            <EditText
+                android:id="@+id/edtSpecialize"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/edt_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Chuyên môn"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:text="Quá trình học tập"
+                android:textSize="@dimen/_13ssp" />
+
+            <EditText
+                android:id="@+id/edtLearningProcess"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/edt_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Quá trình học tập"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:text="Quá trình làm việ"
+                android:textSize="@dimen/_13ssp" />
+
+            <EditText
+                android:id="@+id/edtWorkingProcess"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/edt_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Quá trình làm việc"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:text="Các bệnh có thể chữa"
+                android:textSize="@dimen/_13ssp" />
+
+            <EditText
+                android:id="@+id/edtSickCanDo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/edt_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Các bệnh có thể chữa"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:text="Nghiên cứu khoa học"
+                android:textSize="@dimen/_13ssp" />
+
+            <EditText
+                android:id="@+id/edtNghienCuuKhoaHoc"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/edt_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Nghiên cứu khoa học"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:text="Giảng dạy hướng dẫn"
+                android:textSize="@dimen/_13ssp" />
+
+            <EditText
+                android:id="@+id/edtGiangDayHuongDan"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/edt_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Giảng dạy hướng dẫn"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp" />
+
+            <Button
+                android:id="@+id/btnUpdateDoctorInfo"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:background="@drawable/edt_custom_xanhdatroi"
+                android:fontFamily="@font/roboto_regular"
+                android:text="Cập nhật"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

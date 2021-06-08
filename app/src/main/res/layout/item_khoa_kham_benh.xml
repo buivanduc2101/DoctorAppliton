@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_5sdp">
+
+        <ImageView
+            android:id="@+id/imvImageKhoaKhamBenhItem"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_health" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_3sdp"
+        android:paddingRight="@dimen/_3sdp">
+
+        <TextView
+            android:id="@+id/tvNameKhoaKhamBenhItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:fontFamily="@font/roboto_bold"
+            android:maxLines="2"
+            android:text="Co Xuong Khop - Tim Mach - Noi Tiet"
+            android:textColor="@color/purple_500"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/tvThoiGianKhoaKhamBenhItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:maxLines="4"
+            android:text="Thoi gian lam viec:\nSang 7h - 12h\nChieu 13h - 18h\nToi 19h - 22h"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/colorGachChan" />
+    </LinearLayout>
+
+
+</LinearLayout>

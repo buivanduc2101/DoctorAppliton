@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlRegister"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500">
+
+    <ImageView
+        android:id="@+id/imv_app"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:scaleX="0.80"
+        android:scaleY="0.80"
+        android:src="@drawable/ic_app" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_70sdp"
+        android:background="@color/white"
+        android:elevation="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_20sdp"
+        app:cardCornerRadius="@dimen/_20sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Chào mừng tới Bác sĩ 24/7"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_15ssp" />
+
+            <EditText
+                android:id="@+id/edtFullNameRegister"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/edt_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Họ và tên"
+                android:inputType="text"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp">
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/edtPhoneNumberRegister"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/edt_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Số điện thoại"
+                android:inputType="text"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp" />
+
+            <EditText
+                android:id="@+id/edtBirthdayRegister"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/edt_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Ngày sinh"
+                android:inputType="text"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp" />
+
+            <EditText
+                android:id="@+id/edtAddressRegister"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/edt_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Địa chỉ"
+                android:inputType="text"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp" />
+
+            <EditText
+                android:id="@+id/edtUsernameRegister"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/edt_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Tài khoản"
+                android:inputType="text"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp" />
+
+            <EditText
+                android:id="@+id/edtPassRegister"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/edt_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:background="@drawable/edt_custom_xanhdatroi"
+                android:fontFamily="@font/roboto_regular"
+                android:text="Đăng ký"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

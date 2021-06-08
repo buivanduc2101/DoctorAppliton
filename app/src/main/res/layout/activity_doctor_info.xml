@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imv_avatar_doctor_info"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_name_doctor_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imv_avatar_doctor_info"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="BSCK2. Tran Thi Kiem Anh"
+        android:textColor="@color/colorTextChild"
+        android:textSize="@dimen/_18ssp" />
+
+    <TextView
+        android:id="@+id/tv_name_hospital_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name_doctor_info"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="BV Quan Y 103"
+        android:textSize="@dimen/_16ssp" />
+
+    <TextView
+        android:id="@+id/tv_xemThongTinCaNhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name_hospital_info"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_dialog_bg"
+        android:text="Xem thông tin cá nhân"
+        android:textColor="@color/colorTextChild"
+        android:textSize="@dimen/_16ssp" />
+
+    <TextView
+        android:id="@+id/tv_capnhatThongTinCaNhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_xemThongTinCaNhan"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_dialog_bg"
+        android:text="Cập nhật thông tin cá nhân"
+        android:textColor="@color/colorTextChild"
+        android:textSize="@dimen/_16ssp" />
+
+    <TextView
+        android:id="@+id/tvViTienDoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_capnhatThongTinCaNhan"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_dialog_bg"
+        android:text="Thông tin ví tiền"
+        android:textColor="@color/colorTextChild"
+        android:textSize="@dimen/_16ssp" />
+</RelativeLayout>

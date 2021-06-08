@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvNameHospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:text="@string/co_loi_xay_ra"
+        android:textColor="@color/colorVinID"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:text="Số thứ tự của bạn là:"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp" />
+
+    <TextView
+        android:id="@+id/tvResultAutoNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="@dimen/_20sdp"
+        android:text="1324"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_40ssp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDoneAutoNumber"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_20ssp"
+        android:background="@drawable/edt_custom_xanhdatroi"
+        android:fontFamily="@font/roboto_regular"
+        android:text="Hoàn thành"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp" />
+
+</LinearLayout>

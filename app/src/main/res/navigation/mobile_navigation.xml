@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_nhombenh">
+
+    <fragment
+        android:id="@+id/navigation_nhombenh"
+        android:name="com.sh.doctorapplication.ui.nhombenh.NhomBenhFragment"
+        android:label="Nhóm bệnh"
+        tools:layout="@layout/fragment_nhom_benh" />
+
+    <fragment
+        android:id="@+id/navigation_benhvien"
+        android:name="com.sh.doctorapplication.ui.benhvien.BenhVienFragment"
+        android:label="Bệnh viện"
+        tools:layout="@layout/fragment_benh_vien" />
+
+    <fragment
+        android:id="@+id/navigation_covid"
+        android:name="com.sh.doctorapplication.ui.covid.CovidFragment"
+        android:label="Covid-19"
+        tools:layout="@layout/fragment_covid" />
+
+    <fragment
+        android:id="@+id/navigation_timkiem"
+        android:name="com.sh.doctorapplication.ui.timkiem.TimKiemFragment"
+        android:label="Tìm kiếm"
+        tools:layout="@layout/fragment_tim_kiem" />
+
+    <fragment
+        android:id="@+id/navigation_caidat"
+        android:name="com.sh.doctorapplication.ui.caidat.CaiDatFragment"
+        android:label="Cài đặt"
+        tools:layout="@layout/fragment_tim_kiem" />
+</navigation>

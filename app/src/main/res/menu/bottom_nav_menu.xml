@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_nhombenh"
+        android:icon="@drawable/ic_baseline_group_24"
+        android:title="Nhóm bệnh" />
+
+    <item
+        android:id="@+id/navigation_benhvien"
+        android:icon="@drawable/ic_baseline_local_hospital_24"
+        android:title="Bệnh viện" />
+
+    <item
+        android:id="@+id/navigation_covid"
+        android:icon="@drawable/ic_baseline_ac_unit_24"
+        android:title="Covid-19" />
+
+    <item
+        android:id="@+id/navigation_timkiem"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Tìm kiếm" />
+
+    <item
+        android:id="@+id/navigation_caidat"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Cài đặt" />
+
+</menu>

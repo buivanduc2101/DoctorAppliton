@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center_vertical"
+        android:text="Tài khoản"
+        android:textSize="@dimen/_13ssp" />
+
+    <EditText
+        android:id="@+id/edtUsernameUpdateInfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:background="@drawable/edt_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:hint="Tài khoản"
+        android:padding="@dimen/_8sdp"
+        android:textSize="@dimen/_14ssp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center_vertical"
+        android:text="Họ và tên"
+        android:textSize="@dimen/_13ssp" />
+
+    <EditText
+        android:id="@+id/edtFullNameUpdateInfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:background="@drawable/edt_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:hint="Họ và tên"
+        android:padding="@dimen/_8sdp"
+        android:textSize="@dimen/_14ssp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center_vertical"
+        android:text="Số điện thoại"
+        android:textSize="@dimen/_13ssp" />
+
+    <EditText
+        android:id="@+id/edtPhoneUpdateInfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:background="@drawable/edt_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:hint="Số điện thoại"
+        android:padding="@dimen/_8sdp"
+        android:textSize="@dimen/_14ssp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center_vertical"
+        android:text="Địa chỉ"
+        android:textSize="@dimen/_13ssp" />
+
+    <EditText
+        android:id="@+id/edtAddressUpdateInfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:background="@drawable/edt_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:hint="Địa chỉ"
+        android:padding="@dimen/_8sdp"
+        android:textSize="@dimen/_14ssp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center_vertical"
+        android:text="Ngày sinh"
+        android:textSize="@dimen/_13ssp" />
+
+    <EditText
+        android:id="@+id/edtBirthDayUpdateInfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:background="@drawable/edt_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:hint="Ngày sinh"
+        android:padding="@dimen/_8sdp"
+        android:textSize="@dimen/_14ssp" />
+
+    <Button
+        android:id="@+id/btnUpdateUserInfo"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:background="@drawable/edt_custom_xanhdatroi"
+        android:fontFamily="@font/roboto_regular"
+        android:text="Cập nhật"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp" />
+
+</LinearLayout>

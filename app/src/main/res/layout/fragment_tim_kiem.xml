@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/_10sdp"
+    android:paddingRight="@dimen/_10sdp"
+    tools:context=".ui.timkiem.TimKiemFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Tên bác sĩ"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp" />
+
+    <EditText
+        android:id="@+id/edtDoctorNameSearch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/edt_custom"
+        android:gravity="center_vertical"
+        android:hint="Nhập tên bác sĩ tìm kiếm"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:textSize="@dimen/_14ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Tên bệnh viện"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp" />
+
+    <EditText
+        android:id="@+id/edtHospitalNameSearch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/edt_custom"
+        android:gravity="center_vertical"
+        android:hint="Nhập tên bệnh viện tìm kiếm"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:textSize="@dimen/_14ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Tên bệnh"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp" />
+
+    <EditText
+        android:id="@+id/edtBenhSearch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/edt_custom"
+        android:gravity="center_vertical"
+        android:hint="Nhập tên bệnh tìm kiếm"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:textSize="@dimen/_14ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Chuyên khoa"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp" />
+
+    <EditText
+        android:id="@+id/edtKhoaSearch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/edt_custom"
+        android:gravity="center_vertical"
+        android:hint="Nhập tên chuyên khoa tìm kiếm"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:textSize="@dimen/_14ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Chi phí"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp" />
+
+    <EditText
+        android:id="@+id/edtMoneySearch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/edt_custom"
+        android:gravity="center_vertical"
+        android:hint="Nhập số tiền"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:textSize="@dimen/_14ssp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/edt_custom_xanhdatroi"
+        android:text="Tìm kiếm"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_name_patient_re"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:paddingLeft="10dp"
+        android:text="Benh nhan: Nguyen Van A"
+        android:textColor="@color/colorTextParent"
+        android:textSize="@dimen/_15ssp" />
+
+    <TextView
+        android:id="@+id/tv_birthyear_patient_re"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:paddingLeft="10dp"
+        android:text="Sinh nam: 1990"
+        android:textColor="@color/colorTextParent"
+        android:textSize="@dimen/_15ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Tên bệnh: "
+        android:textColor="@color/colorTextParent"
+        android:textSize="@dimen/_15ssp" />
+
+    <EditText
+        android:id="@+id/edt_sick_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:hint="Nhập tên bệnh"
+        android:textColor="@color/colorTextParent"
+        android:textSize="@dimen/_15ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Kết luận khám: "
+        android:textColor="@color/colorTextParent"
+        android:textSize="@dimen/_15ssp" />
+
+    <EditText
+        android:id="@+id/edt_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:hint="Nhập kết luận"
+        android:textColor="@color/colorTextParent"
+        android:textSize="@dimen/_15ssp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel_re"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/edt_custom_xam"
+            android:text="Hủy bỏ"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_save_re"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/edt_custom_xanhdatroi"
+            android:text="Lưu"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
