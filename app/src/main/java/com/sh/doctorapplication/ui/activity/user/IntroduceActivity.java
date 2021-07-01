@@ -26,7 +26,7 @@ public class IntroduceActivity extends AppCompatActivity {
 
     }
 
-    @Override
+    @Override //trong ham su kien
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
             onBackPressed();
